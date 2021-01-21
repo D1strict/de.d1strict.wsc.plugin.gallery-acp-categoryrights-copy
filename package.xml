@@ -5,8 +5,8 @@
 		<packagename language="de"><![CDATA[WoltLab Suite™ Galerie: Kategoriegruppenrechte kopieren]]></packagename>
 		<packagedescription><![CDATA[Plugin to copy the category rights of the WoltLab Suite™ Gallery from one to another.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Plugin um die Kategorierechte von einer Kategorie in eine Andere zu kopieren.]]></packagedescription>
-		<packageurl><![CDATA[https://shop.d1strict.de/product/13-filebase-kategoriegruppenrechte-kopieren/]]></packageurl>
-		<version><![CDATA[1.0.0]]></version>
+		<packageurl><![CDATA[https://shop.d1strict.de/product/13-woltlab-suite-galerie-kategoriegruppenrechte-kopieren/]]></packageurl>
+		<version><![CDATA[1.0.1]]></version>
 		<date><![CDATA[2020-10-08]]></date>
 		<license><![CDATA[Lizenz: <https://d1strict.de/free/>]]></license>
 	</packageinformation>
@@ -17,8 +17,8 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="5.2.8"><![CDATA[com.woltlab.wcf]]></requiredpackage>
-    <requiredpackage minversion="5.2.8"><![CDATA[com.woltlab.gallery]]></requiredpackage>
+		<requiredpackage minversion="5.2.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+		<requiredpackage minversion="5.2.0"><![CDATA[com.woltlab.gallery]]></requiredpackage>
 	</requiredpackages>
 
 	<excludedpackages>
@@ -36,10 +36,10 @@
 		<instruction type="acpMenu">xml/acpMenu.xml</instruction>
 	</instructions>
 
-  <instructions type="update" fromversion="1.0.0">
-    <instruction application="gallery" type="acpTemplate">acpTemplates.tar</instruction>
-    <instruction application="gallery" type="file">files.tar</instruction>
-    <instruction type="language">lang/*.xml</instruction>
-    <instruction type="acpMenu">xml/acpMenu.xml</instruction>
+	<instructions type="update" fromversion="1.0.0">
+		<instruction application="gallery" type="acpTemplate">acpTemplates.tar</instruction>
+		<instruction application="gallery" type="file">files.tar</instruction>
+		<instruction type="language">lang/*.xml</instruction>
+		<instruction type="acpMenu">xml/acpMenu.xml</instruction>
   </instructions>
 </package>
