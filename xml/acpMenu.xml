@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/acpMenu.xsd">
+	<import>
+		<acpmenuitem name="gallery.acp.menu.link.gallery.category.rights.copy">
+			<controller><![CDATA[gallery\acp\page\CategoryRightsCopyPage]]></controller>
+			<parent>gallery.acp.menu.link.gallery</parent>
+			<permissions>admin.gallery.canManageCategory</permissions>
+		</acpmenuitem>
+	</import>
+</data>

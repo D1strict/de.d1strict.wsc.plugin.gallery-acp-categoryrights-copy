@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="gallery.acp.image">
+		<item name="gallery.acp.image.category.sourceCategoryID"><![CDATA[Source category]]></item>
+		<item name="gallery.acp.image.category.targetCategoryIDs"><![CDATA[Target categories]]></item>
+		<item name="gallery.acp.image.category.rights.copy"><![CDATA[Copy category usergroup permissions]]></item>
+		<item name="gallery.acp.image.category.copy"><![CDATA[Copy]]></item>
+		<item name="gallery.acp.image.category.sourceCategoryID.error.noSelection"><![CDATA[A source category must be chosen.]]></item>
+		<item name="gallery.acp.image.category.targetCategoryIDs.error.noSelection"><![CDATA[At least one target category must be chosen.]]></item>
+	</category>
+
+	<category name="gallery.acp.menu">
+		<item name="gallery.acp.menu.link.gallery.category.rights.copy"><![CDATA[Copy category usergroup permissions]]></item>
+	</category>
+</language>
